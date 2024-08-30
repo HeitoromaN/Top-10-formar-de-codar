@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é o nome do carro?</title>
+</head>
+
+<body>
+    <script>
+        var nome_do_carro = "Fusca"
+        alert("Meu mano, o nome do carro é " + nome_do_carro);
+        var nome_do_usuario = prompt("Maluco, qual é o teu nome?")
+        alert("Blz " + nome_do_usuario + ", bem-vindo aí fica a vontade")
+
+        setTimeout(function () {
+            var idade_do_usuario = prompt("Aé, esqueci de perguntar antes, qual é a sua idade?");
+            alert("Então você tem " + idade_do_usuario + "? E você espera que eu acredite nisso?");
+            setTimeout(function () {
+                alert("Tá, eu acredito, fazer o que?");
+            }, 2000);
+        }, 3000);
+    </script>
+</body>
+
+</html>
