@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+
+<body>
+    <script>
+        var base_do_retangulo = Number(prompt("Meu mano, eu sou uma calculadora, vamos brincar de matemática. Fala pra mim, qual é a base do retângulo"))
+        var altura_do_retangulo = Number(prompt("E a altura, meu bom?"))
+        var area_do_retangulo = base_do_retangulo * altura_do_retangulo
+        alert("A área do retângulo é " + area_do_retangulo + ".")
+        var lado_do_quadrado = Number(prompt("Agora um quadrado, me fala o valor dos lados dele e eu te falo a área"))
+        var area_do_quadrado = lado_do_quadrado * lado_do_quadrado
+        alert("A área desse quadrado é " + area_do_quadrado + ".")
+        alert("Agora um losango, aquela forma na cabeça dos personagens de The Sims")
+        var diagonal_maior_do_losango = Number(prompt("Me fala, qual é o tamanho da diagonal maior do losango?"))
+        var diagonal_menor_do_losango = Number(prompt("Agora a diagonal menor, me fala ai"))
+        var area_do_losango = diagonal_maior_do_losango * diagonal_menor_do_losango/2;
+        alert("A área desse losango é de " + area_do_losango + ".")
+        alert("Agora um trapézio, você já sabe como funciona agora")
+        var base_maior_do_trapezio = Number(prompt("Qual é a base maior do seu trapézio?"))
+        var base_menor_do_trapezio = Number(prompt("E a base menor?"))
+        var altura_do_trapezio = Number(prompt("Agora a altura"))
+        var area_do_trapezio = (base_maior_do_trapezio + base_menor_do_trapezio) * altura_do_trapezio / 2;
+        alert("Esse trapézio tem " + area_do_trapezio + " de área.")
+        alert("Agora o último, o paralelograma (vulgo retângulo em Itálico)")
+        var altura_do_paralelograma = Number(prompt("Qual é a altura do paralelograma?"))
+        var base_do_paralelograma = Number(prompt("E a base do paralelograma?"))
+        var area_do_paralelograma = altura_do_paralelograma * base_do_paralelograma
+        alert("Mano, esse paralelograma que você descreveu ai tem uma área de " + area_do_paralelograma + " , entendeu?")
+        alert("Bom, a linha de códigos chegou ao fim, espero que tenha gostado, tchau tchau.")
+    </script>
+</body>
+
+</html>
